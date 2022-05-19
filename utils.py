@@ -1,4 +1,3 @@
-from sympy import Matrix
 import torch
 
 
@@ -19,11 +18,6 @@ def intersection_over_union(boxes, targets):
     x2 = torch.min(xc1 + h1 / 2, xc2 + h2 / 2)
     y2 = torch.min(yc1 + w1 / 2, yc2 + w2 / 2)
 
-    intersection = max(0, (x2 - x1) * (y2 - y1))
+    intersection = (x2 - x1).clamp(0) * (y2 - y1).clamp(0)
     union = h1 * w1 + h2 * w2 - intersection
     return intersection / union
-
-
-boxes = torch.tensor([[1, 1, 2, 2]])
-targets = torch.tensor([[1, 1, 2, 2]])
-print(intersection_over_union(boxes, targets))
