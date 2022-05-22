@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="14b9109b-855b-49c6-8872-15b20be8ed8d" name="Changes" comment="Add dataset loader">
+    <list default="true" id="14b9109b-855b-49c6-8872-15b20be8ed8d" name="Changes" comment="Fix some issues">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loss.py" beforeDir="false" afterPath="$PROJECT_DIR$/loss.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/train.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils.py" afterDir="false" />
     </list>
@@ -202,7 +200,8 @@
       <updated>1652992267268</updated>
       <workItem from="1652992268408" duration="1860000" />
       <workItem from="1653057909362" duration="8505000" />
-      <workItem from="1653226798463" duration="3331000" />
+      <workItem from="1653226798463" duration="6641000" />
+      <workItem from="1653233521002" duration="596000" />
     </task>
     <task id="LOCAL-00001" summary="Add train py">
       <created>1652993753432</created>
@@ -232,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653068112544</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Fix some issues">
+      <created>1653230387733</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1653230387733</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -255,7 +261,8 @@
     <MESSAGE value="Add train py" />
     <MESSAGE value="Add loss" />
     <MESSAGE value="Add dataset loader" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add dataset loader" />
+    <MESSAGE value="Fix some issues" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix some issues" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/yolov1$for_test.coverage" NAME="for_test Coverage Results" MODIFIED="1652993530942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
@@ -265,7 +272,7 @@
     <SUITE FILE_PATH="coverage/yolov1$learn_python.coverage" NAME="learn_python Coverage Results" MODIFIED="1653228833982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
     <SUITE FILE_PATH="coverage/yolov1$deeplearning.coverage" NAME="deeplearning Coverage Results" MODIFIED="1652992740740" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/yolov1$loss.coverage" NAME="loss Coverage Results" MODIFIED="1653229734706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/yolov1$train.coverage" NAME="train Coverage Results" MODIFIED="1653229746265" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/yolov1$train.coverage" NAME="train Coverage Results" MODIFIED="1653233122068" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/yolov1$learn_python__1_.coverage" NAME="learn_python (1) Coverage Results" MODIFIED="1653228865542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/yolov1$testpath.coverage" NAME="testpath Coverage Results" MODIFIED="1653069436139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
